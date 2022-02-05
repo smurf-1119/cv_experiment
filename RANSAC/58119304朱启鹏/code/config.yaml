@@ -1,0 +1,10 @@
+#Defauly parameters
+max_iters: 90
+min_sample_num: 30
+noise_rate: 0.1
+num_of_points: 3000
+threshold_inlier: 0.5
+threshold_model: 2550
+true_b: 4.2
+true_k: 2.3
+

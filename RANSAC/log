@@ -1,0 +1,404 @@
+======================================== TEST RANSAC ========================================
+---------------------------------------- Test test_noise_rate ----------------------------------------
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 1.31 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9649346883060574
+true_b: 0.39872611141445        fitting_b: 0.2624900899152041
+true_d: 1.6746496679406901      fitting_d: 0.9891543858340801
+inlier_rate_true: 0.9196666666666666    avg distance_true: 0.6601548416259617
+inlier_rate_hat: 0.865  avg distance_hat: 0.45693373576135454
+Running time: 3.66 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.20,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.66 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9825568367714509
+true_b: 0.39872611141445        fitting_b: 0.18596252986470277
+true_d: 1.6746496679406901      fitting_d: 0.6185976298508504
+inlier_rate_true: 0.8446666666666667    avg distance_true: 1.2523113648734934
+inlier_rate_hat: 0.6956666666666667     avg distance_hat: 0.6954071965575625
+Running time: 0.92 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.30,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.70 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9905138140043728
+true_b: 0.39872611141445        fitting_b: 0.1374131881098414
+true_d: 1.6746496679406901      fitting_d: 0.3754137531853059
+inlier_rate_true: 0.7576666666666667    avg distance_true: 1.9776987217467736
+inlier_rate_hat: 0.5933333333333334     avg distance_hat: 0.7892421783263956
+Running time: 0.97 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.70 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9534360356694123
+true_b: 0.39872611141445        fitting_b: 0.30159530150019775
+true_d: 1.6746496679406901      fitting_d: 1.261009848933377
+inlier_rate_true: 0.9213333333333333    avg distance_true: 0.4565601690535872
+inlier_rate_hat: 0.9173333333333333     avg distance_hat: 0.37607708863198436
+Running time: 0.95 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.20,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.71 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.976772286915917
+true_b: 0.39872611141445        fitting_b: 0.21427995592926952
+true_d: 1.6746496679406901      fitting_d: 0.945338591702874
+inlier_rate_true: 0.841         avg distance_true: 0.9160221494671723
+inlier_rate_hat: 0.756  avg distance_hat: 0.5823277902297972
+Running time: 0.95 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.30,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.66 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9858049111713855
+true_b: 0.39872611141445        fitting_b: 0.167894839439385
+true_d: 1.6746496679406901      fitting_d: 0.6949291030505371
+inlier_rate_true: 0.7663333333333333    avg distance_true: 1.2463516878367078
+inlier_rate_hat: 0.67   avg distance_hat: 0.7138089256850534
+Running time: 0.92 sec
+---------------------------------------- Test test_noise_rate ----------------------------------------
+---------------------------------------- Test test_threshold_inlier ----------------------------------------
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.10
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.62 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9686512411465734
+true_b: 0.39872611141445        fitting_b: 0.24842458216771288
+true_d: 1.6746496679406901      fitting_d: 0.9188530569243045
+inlier_rate_true: 0.8993333333333333    avg distance_true: 0.7279969713662954
+inlier_rate_hat: 0.495  avg distance_hat: 0.4742743725318874
+Running time: 0.86 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.30
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.62 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9668644556053951
+true_b: 0.39872611141445        fitting_b: 0.2552902749555547
+true_d: 1.6746496679406901      fitting_d: 0.9607932639877066
+inlier_rate_true: 0.9136666666666666    avg distance_true: 0.6683685531962469
+inlier_rate_hat: 0.7663333333333333     avg distance_hat: 0.44343214465440484
+Running time: 0.84 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.68 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9672326345409957
+true_b: 0.39872611141445        fitting_b: 0.25389176961627696
+true_d: 1.6746496679406901      fitting_d: 0.945175652515922
+inlier_rate_true: 0.922         avg distance_true: 0.6641423567351321
+inlier_rate_hat: 0.8663333333333333     avg distance_hat: 0.44642653640186936
+Running time: 0.91 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.10
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.70 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.96136531179242
+true_b: 0.39872611141445        fitting_b: 0.27527574771901603
+true_d: 1.6746496679406901      fitting_d: 1.1377273638250947
+inlier_rate_true: 0.9003333333333333    avg distance_true: 0.5659429793629688
+inlier_rate_hat: 0.5853333333333334     avg distance_hat: 0.4288781896627157
+Running time: 1.03 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.30
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.63 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9532584690801797
+true_b: 0.39872611141445        fitting_b: 0.3021560708092952
+true_d: 1.6746496679406901      fitting_d: 1.2662908050831196
+inlier_rate_true: 0.919         avg distance_true: 0.41484986529696766
+inlier_rate_hat: 0.8803333333333333     avg distance_hat: 0.3360366359477058
+Running time: 0.86 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=0.10,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.65 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.95278657597696
+true_b: 0.39872611141445        fitting_b: 0.30364080858491416
+true_d: 1.6746496679406901      fitting_d: 1.266331483819638
+inlier_rate_true: 0.9213333333333333    avg distance_true: 0.39946135815657213
+inlier_rate_hat: 0.9206666666666666     avg distance_hat: 0.3276490409362044
+Running time: 0.88 sec
+---------------------------------------- Test test_noise_rate ----------------------------------------
+---------------------------------------- Test test_threshold_model ----------------------------------------
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=2250.00,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2250.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.63 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9621469601039231
+true_b: 0.39872611141445        fitting_b: 0.2725311489771031
+true_d: 1.6746496679406901      fitting_d: 1.0358215509885071
+inlier_rate_true: 0.9226666666666666    avg distance_true: 0.5951184172722342
+inlier_rate_hat: 0.8883333333333333     avg distance_hat: 0.4236715731267441
+Running time: 0.86 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=2550.00,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.64 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9686032418191424
+true_b: 0.39872611141445        fitting_b: 0.24861166492634254
+true_d: 1.6746496679406901      fitting_d: 0.935206675801169
+inlier_rate_true: 0.9196666666666666    avg distance_true: 0.7009855274713661
+inlier_rate_hat: 0.8483333333333334     avg distance_hat: 0.46133679508089775
+Running time: 0.86 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=2850.00,
+noise_type=Gaussian,
+max_iters=90,
+threshold_model=2850.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.65 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9649974781165782
+true_b: 0.39872611141445        fitting_b: 0.2622591604284662
+true_d: 1.6746496679406901      fitting_d: 0.9809935898443516
+inlier_rate_true: 0.9186666666666666    avg distance_true: 0.6507949884497678
+inlier_rate_hat: 0.8653333333333333     avg distance_hat: 0.4451890621939708
+Running time: 0.88 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=2250.00,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2250.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.63 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9549504461876895
+true_b: 0.39872611141445        fitting_b: 0.29676530344016383
+true_d: 1.6746496679406901      fitting_d: 1.2501822064957613
+inlier_rate_true: 0.9206666666666666    avg distance_true: 0.4587981020744767
+inlier_rate_hat: 0.9136666666666666     avg distance_hat: 0.36960537263363735
+Running time: 0.87 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=2550.00,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2550.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.60 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9592692591357355
+true_b: 0.39872611141445        fitting_b: 0.28249334235903234
+true_d: 1.6746496679406901      fitting_d: 1.157444305638943
+inlier_rate_true: 0.9206666666666666    avg distance_true: 0.5125425952509819
+inlier_rate_hat: 0.9013333333333333     avg distance_hat: 0.39960886433196857
+Running time: 0.83 sec
+---------------------------------------- TEST PARAMS ----------------------------------------
+true_k=2.30,
+true_b=4.20,
+num_of_points=3000,
+noise_rate=2850.00,
+noise_type=Uniform,
+max_iters=90,
+threshold_model=2850.00,
+threshold_inlier=0.50
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+Running 0.65 sec
+best_acc:  1.0
+true_a: -0.917070056253235      fitting_a: -0.9564035522891287
+true_b: 0.39872611141445        fitting_b: 0.2920483610101861
+true_d: 1.6746496679406901      fitting_d: 1.1915947527302608
+inlier_rate_true: 0.9213333333333333    avg distance_true: 0.4622630192604108
+inlier_rate_hat: 0.9043333333333333     avg distance_hat: 0.36250041012592993
+Running time: 0.89 sec
+---------------------------------------- Test test_threshold_model ----------------------------------------
+======================================== TEST RANSAC ========================================
+
+
+
+======================================== TEST GEN_DATA ========================================
+---------------------------------------- TEST PARAMS ----------------------------------------
+test_points_num = 10000,
+test_noise_rate = 0.10,
+test_k=-3.60,
+test_b=2.10,
+test_noise_type=Gaussian
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+---------------------------------------- TEST PARAMS ----------------------------------------
+test_points_num = 10000,
+test_noise_rate = 0.20,
+test_k=-3.60,
+test_b=2.10,
+test_noise_type=Gaussian
+---------------------------------------- TEST PARAMS ---------------------------------------- 
+
+---------------------------------------- TEST PARAMS ----------------------------------------
+test_points_num = 10000,
+test_noise_rate = 0.30,
+test_k=-3.60,
+test_b=2.10,
+test_noise_type=Gaussian
+---------------------------------------- TEST PARAMS ---------------------------------------- 
+
+---------------------------------------- TEST PARAMS ----------------------------------------
+test_points_num = 10000,
+test_noise_rate = 0.10, 
+test_k=-3.60,
+test_b=2.10,
+test_noise_type=Uniform
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+---------------------------------------- TEST PARAMS ----------------------------------------
+test_points_num = 10000,
+test_noise_rate = 0.20,
+test_k=-3.60,
+test_b=2.10,
+test_noise_type=Uniform
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+---------------------------------------- TEST PARAMS ----------------------------------------
+test_points_num = 10000,
+test_noise_rate = 0.30,
+test_k=-3.60,
+test_b=2.10,
+test_noise_type=Uniform
+---------------------------------------- TEST PARAMS ----------------------------------------
+
+running time: 7.598171234130859
+======================================== TEST GEN_DATA ========================================
